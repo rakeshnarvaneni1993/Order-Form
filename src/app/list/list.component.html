@@ -1,0 +1,13 @@
+<div class = "container">
+  <h1>Services</h1>
+  <ul>
+    <li (click) = "clicked($event)" [ngClass] = "{'changeColor':a}" value = "300">Web Development $300</li>
+    <li (click) = "clicked1($event)" [ngClass] = "{'changeColor':b}" value = "400">Design   $400</li>
+    <li (click) = "clicked2($event)" [ngClass] = "{'changeColor':c}" value = "400">Integration $400</li>
+    <li (click) = "clicked3($event)" [ngClass] = "{'changeColor':d}" value = "200">Training $200</li>
+  </ul>
+  <hr>
+  <div>
+    <h2><span>Total</span>  <span id = "total">{{total1}}</span></h2>
+  </div>
+</div>

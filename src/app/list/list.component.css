@@ -1,0 +1,36 @@
+li{
+  list-style-type: none;
+  color:black;
+  background-color: white;
+  font-family: 'Anton', sans-serif;
+  width:30%;
+  text-align: center;
+  margin:10px;
+  position:relative;
+  left:33%;
+}
+*{
+  text-align: center;
+  background-color: #7b90cb;
+}
+.changeColor{
+  background-color: green;
+  color:white;
+}
+hr{
+  width:50%;
+}
+h1{
+  font-family: 'Cookie', cursive;
+}
+span{
+  font-family: 'Anton', sans-serif;
+  width:30%;
+  text-align: center;
+  margin:10px;
+}
+.container{
+  width:50%;
+  margin:0 auto;
+  height:50%;
+}
